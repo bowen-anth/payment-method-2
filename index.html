@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Method 2</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="card">
+      <p class="payment">Payment</p>
+      <form action="" id="form">
+        <div class="card-pay-container">
+          <div class="left">
+            <input type="radio" for="" name="payment-type" />
+          </div>
+          <div class="right">
+            <p class="title">Card</p>
+            <p class="pay-with-card-p">Pay with a card</p>
+            <div class="credit-card-container">
+              <div class="top">
+                <img
+                  class="cc-image"
+                  width="20"
+                  height="auto"
+                  src="https://img.icons8.com/ios/50/credit-card-front.png"
+                  alt="credit-card-front"
+                /><input
+                  class="cc-number"
+                  type="text"
+                  placeholder="Card number"
+                />
+              </div>
+              <div class="bottom">
+                <img
+                  class="cc-image-date"
+                  width="20"
+                  height="auto"
+                  src="https://img.icons8.com/ios/50/credit-card-front.png"
+                  alt="credit-card-front"
+                />
+                <input type="text" class="cc-date" placeholder="mm/dd" />
+              </div>
+              <div class="cvc-container">
+                <img
+                  class="lock-image"
+                  width="20"
+                  height="auto"
+                  src="https://img.icons8.com/ios/50/lock--v1.png"
+                  alt="lock--v1"
+                />
+                <input type="text" class="cvc" placeholder="CVC" />
+              </div>
+              <div class="remember-container">
+                <input type="checkbox" id="checkbox" /><label
+                  class="remember"
+                  for="checkbox"
+                  >Remember my card</label
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pay-later-container">
+          <div class="left">
+            <input type="radio" name="payment-type" />
+          </div>
+          <div class="right">
+            <p class="pay-later">Get first. Pay later.</p>
+            <p class="pay-later-2">Pay within 30 days.</p>
+          </div>
+        </div>
+        <button class="button">Continue</button>
+      </form>
+    </div>
+    <footer class="footer">
+      <p>
+        <a href="https://icons8.com/icon/94/lock">Lock</a> icon by
+        <a href="https://icons8.com">Icons8</a>
+      </p>
+    </footer>
+  </body>
+</html>
